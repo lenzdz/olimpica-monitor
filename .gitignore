@@ -1,0 +1,17 @@
+# Variables de entorno
+config.py
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos de VS Code (opcional)
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
