@@ -1,0 +1,31 @@
+name: Monitor Olímpica
+
+on:
+  schedule:
+    # Cada quince minutos
+    - cron: '*/15 * * * *'
+
+  workflow_dispatch:
+
+jobs:
+  monitor:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+
+      - name: Ejecutar monitor
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python main.py
