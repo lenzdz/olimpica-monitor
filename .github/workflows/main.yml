@@ -3,7 +3,7 @@ name: Monitor Olímpica
 on:
   schedule:
     # Cada quince minutos
-    - cron: '*/15 * * * *'
+    - cron: '* * * * *'
 
   workflow_dispatch:
 
