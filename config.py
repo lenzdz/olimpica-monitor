@@ -3,4 +3,4 @@ import os
 
 load_dotenv()
 
-WEBHOOK = os.getenv("DISCORD_WEBHOOK")
+DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")

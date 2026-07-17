@@ -2,8 +2,8 @@ name: Monitor Olímpica
 
 on:
   schedule:
-    # Cada hora
-    - cron: '0 * * * *'
+    # Cada quince minutos
+    - cron: '*/15 * * * *'
 
   workflow_dispatch:
 
@@ -25,5 +25,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Ejecutar monitor
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
           python main.py
