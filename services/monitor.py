@@ -71,5 +71,6 @@ def comparadores(producto):
         mensaje += (
             f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
         )
+        
     return mensaje
         
