@@ -2,8 +2,8 @@ name: Monitor Olímpica
 
 on:
   schedule:
-    # A las 9:00 a.m., 2:00 p.m. y 6:00 p.m. Hora Colombia
-    - cron: "0 14,19,23 * * *"
+    # A las 8:00 a.m., 1:00 p.m. y 5:00 p.m. Hora Colombia
+    - cron: "0 13,18,22 * * *"
 
   workflow_dispatch:
 
