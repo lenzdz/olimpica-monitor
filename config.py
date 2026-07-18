@@ -4,3 +4,4 @@ import os
 load_dotenv()
 
 DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
+JUMBO_DISCORD_WEBHOOK = os.getenv("JUMBO_DISCORD_WEBHOOK")

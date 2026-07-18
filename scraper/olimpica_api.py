@@ -70,10 +70,9 @@ def obtener_descuento(info_producto):
     if not teasers:
         return None
 
-
     return teasers[0]["effects"]["parameters"][0]["value"]
 
-def info_producto(id_producto):
+def info_producto_olimpica(id_producto):
     info_producto_desde_api = obtener_flags_producto(id_producto)
     descuento = obtener_descuento(info_producto_desde_api)
 
@@ -97,7 +96,6 @@ def info_producto(id_producto):
         "nombre": nombre_del_producto,
         "precio_pleno": precio_pleno,
         "precio_hoy": precio_hoy,
-        "descuento_tarjeta": descuento,
         "precio_con_descuento": precio_con_descuento
     }
 
