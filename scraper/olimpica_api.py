@@ -53,11 +53,11 @@ def obtener_flags_producto(product_id):
         headers=headers
     )
 
-    print("URL generada:")
-    print(respuesta.url)
-    print()
+    # print("URL generada:")
+    # print(respuesta.url)
+    # print()
 
-    print("Status:", respuesta.status_code)
+    # print("Status:", respuesta.status_code)
 
     return respuesta.json()
 

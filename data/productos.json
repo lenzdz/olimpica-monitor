@@ -1,8 +1,23 @@
 [
     {
+        "id": 2299909,
+        "emoji": "🐟",
+        "nombre_personalizado": "Atún Van Camp's Agua 320 G X2 Unds"
+    },
+    {
+        "id": 453544,
+        "emoji": "🐟",
+        "nombre_personalizado": "Atún Van Camp's Agua 80 G X3 Unds"
+    },
+    {
         "id": 2219454,
         "emoji": "🐟",
         "nombre_personalizado": "ATUN ZENU LOMO E/AGUA 160g"
+    },
+    {
+        "id": 2328698,
+        "emoji": "🐟",
+        "nombre_personalizado": "ATUN ZENU LOMO AGUA 240G DUOPACK"
     },
     {
         "id": 1219972,
@@ -20,6 +35,11 @@
         "nombre_personalizado": "Leche Colanta Uht Entera 1,1 Lt X6 Unds"
     },
     {
+        "id": 854422,
+        "emoji": "🍞",
+        "nombre_personalizado": "Pan Guadalupe Mogolla Integral 400 G X12 Unds"
+    },
+    {
         "id": 2332130,
         "emoji": "🧻",
         "nombre_personalizado": "PAPEL HIGIENICO SUPPRA CARE TRIP HOJ 33 M X12 ROLL"
@@ -30,9 +50,29 @@
         "nombre_personalizado": "Papel Higiénico Suppra Care Blanco Prem Triple Hoja 32 Mts X12 Unds"
     },
     {
-        "id": 98321,
-        "emoji": "🐟",
-        "nombre_personalizado": "Pez Salmon Premiun Coho 3 Porc X 450Gr"
+        "id": 230851,
+        "emoji": "🧀",
+        "nombre_personalizado": "Queso Colanta Mozzarella Tajado 250 G"
+    },
+    {
+        "id": 230849,
+        "emoji": "🧀",
+        "nombre_personalizado": "Queso Colanta Mozzarella 500 G X30 Tajadas"
+    },
+    {
+        "id": 2121184,
+        "emoji": "🧼",
+        "nombre_personalizado": "Shampoo Head & Shoulders Hidratación 375 Ml"
+    },
+    {
+        "id": 991917,
+        "emoji": "🍞",
+        "nombre_personalizado": "Tortilla Bimbo Mediana 240 G X8 Unds"
+    },
+    {
+        "id": 927656,
+        "emoji": "🍞",
+        "nombre_personalizado": "Tortilla Bimbo Mediana 450 G X15 Unds"
     },
     {
         "id": 1392602,
