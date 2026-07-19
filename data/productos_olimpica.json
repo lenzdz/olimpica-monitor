@@ -20,9 +20,59 @@
         "nombre_personalizado": "ATUN ZENU LOMO AGUA 240G DUOPACK"
     },
     {
+        "id": 1271516,
+        "emoji": "🌽",
+        "nombre_personalizado": "Arepa Don Maíz Antioqueña con Sal X8 Unds"
+    },
+    {
+        "id": 68415,
+        "emoji": "☕",
+        "nombre_personalizado": "Café Nescafé Tradición Instantáneo 50 G"
+    },
+    {
+        "id": 740722,
+        "emoji": "☕",
+        "nombre_personalizado": "Café Nescafé Tradición Instantáneo 85 G"
+    },
+    {
+        "id": 723683,
+        "emoji": "☕",
+        "nombre_personalizado": "Café Nescafé Tradición Instantáneo 170 G"
+    },
+    {
         "id": 1219972,
         "emoji": "🥚",
         "nombre_personalizado": "Claras de huevo Santa Reyes"
+    },
+    {
+        "id": 2314354,
+        "emoji": "🧼",
+        "nombre_personalizado": "Detergente Polvo Fab Ultra flash 2 Kg"
+    },
+    {
+        "id": 2327124,
+        "emoji": "🧼",
+        "nombre_personalizado": "DETERG POLV FAB ULTRA 3.5KG P/ESP"
+    },
+    {
+        "id": 1571863,
+        "emoji": "🐷",
+        "nombre_personalizado": "Jamón Colanta Para Sandwich 225 G X11 Unds"
+    },
+    {
+        "id": 1562174,
+        "emoji": "🐷",
+        "nombre_personalizado": "Jamon Colanta Montefrio 450 G X22 Unds"
+    },
+    {
+        "id": 1149617,
+        "emoji": "🐷",
+        "nombre_personalizado": "Jamón Zenú Sandwich 230 G x11 Unds"
+    },
+    {
+        "id": 1149613,
+        "emoji": "🐷",
+        "nombre_personalizado": "Jamón Zenú Sandwich 450 G x22 Unds"
     },
     {
         "id": 2256647,
@@ -33,6 +83,26 @@
         "id": 1623329,
         "emoji": "🍼",
         "nombre_personalizado": "Leche Colanta Uht Entera 1,1 Lt X6 Unds"
+    },
+    {
+        "id": 2150428,
+        "emoji": "🌽",
+        "nombre_personalizado": "MAIZ DULCE ZENÚ 241g X2"
+    },
+    {
+        "id": 874670,
+        "emoji": "🌽",
+        "nombre_personalizado": "Maíz Tierno San Jorge Lata 190 G"
+    },
+    {
+        "id": 875857,
+        "emoji": "🌽",
+        "nombre_personalizado": "Maíz Tierno San Jorge 190 G X2 Unds"
+    },
+    {
+        "id": 2148673,
+        "emoji": "🌽",
+        "nombre_personalizado": "MAIZ TIERNO ZENÚ 241g"
     },
     {
         "id": 854422,
@@ -63,6 +133,31 @@
         "id": 2121184,
         "emoji": "🧼",
         "nombre_personalizado": "Shampoo Head & Shoulders Hidratación 375 Ml"
+    },
+    {
+        "id": 1224682,
+        "emoji": "🍵",
+        "nombre_personalizado": "Sopa Ajinomen Instantánea Fideo Carne 80 G"
+    },
+    {
+        "id": 1224688,
+        "emoji": "🍵",
+        "nombre_personalizado": "Sopa Ajinomen Instantánea Fideo Costilla de Res 80 G"
+    },
+    {
+        "id": 1224680,
+        "emoji": "🍵",
+        "nombre_personalizado": "Sopa Ajinomen Instantánea Fideo Pollo 80 G"
+    },
+    {
+        "id": 1224683,
+        "emoji": "🍵",
+        "nombre_personalizado": "Sopa Ajinomen Instantánea Oriental con Fideo 80 G"
+    },
+    {
+        "id": 2001409,
+        "emoji": "☕",
+        "nombre_personalizado": "Té Hindú 80 G X50 Unds"
     },
     {
         "id": 991917,

@@ -1,5 +1,25 @@
 [
     {
+        "ean": 7702420406006,
+        "emoji": "🥚",
+        "nombre_personalizado": "Claras de huevo Santa Reyes pasteurizadas libres de grasa x1L"
+    },
+    {
+        "ean": 7702191164327,
+        "emoji": "🧼",
+        "nombre_personalizado": "Detergente Fab Ultra Flash en Poltvo 2kg"
+    },
+    {
+        "ean": 7702191164341,
+        "emoji": "🧼",
+        "nombre_personalizado": "Detergente Fab Ultra Flash En Poltvo 3Kg"
+    },
+    {
+        "ean": 7702191164365,
+        "emoji": "🧼",
+        "nombre_personalizado": "Detergente Fab Ultra Flash En Poltvo 4Kg"
+    },
+    {
         "ean": 7702191164389,
         "emoji": "🧼",
         "nombre_personalizado": "Detergente Fab Ultra Flash En Poltvo 5Kg"
@@ -7,7 +27,7 @@
     {
         "ean": 7702191164396,
         "emoji": "🧼",
-        "nombre_personalizado": "Detergente Fab Ultra Flash En Poltvo 5Kg"
+        "nombre_personalizado": "Detergente Fab Ultra Flash En Poltvo 6Kg"
     },
     {
         "ean": 7702129004961,
