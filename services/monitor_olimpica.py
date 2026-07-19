@@ -174,5 +174,63 @@ def comparadores_olimpica(producto):
         mensaje += (
             f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
         )
-        
+    
+    # Comparador Maíz Zenú 241G x2 vs. prod. de referencia
+    if (producto["id"] == 2150428):
+        primer_comparador = info_producto_olimpica(2148673)
+        segundo_comparador = info_producto_olimpica(875857)
+        mensaje += (
+            f"_Producto de referencia: {primer_comparador['nombre']} > ${primer_comparador['precio_hoy']:,.0f}_\n"
+        )
+        mensaje += (
+            f"_Producto de referencia: {segundo_comparador['nombre']} > ${segundo_comparador['precio_hoy']:,.0f}_\n\n"
+        )
+
+     # Comparador Maíz Zenú 241G vs. prod. de referencia
+    if (producto["id"] == 2148673):
+        primer_comparador = info_producto_olimpica(2150428)
+        segundo_comparador = info_producto_olimpica(874670)
+        mensaje += (
+            f"_Producto de referencia: {primer_comparador['nombre']} > ${primer_comparador['precio_hoy']:,.0f}_\n"
+        )
+        mensaje += (
+            f"_Producto de referencia: {segundo_comparador['nombre']} > ${segundo_comparador['precio_hoy']:,.0f}_\n\n"
+        )
+    
+    # Comparador Maíz San Jorge 190G vs. prod. de referencia
+    if (producto["id"] == 874670):
+        primer_comparador = info_producto_olimpica(875857)
+        segundo_comparador = info_producto_olimpica(2148673)
+        mensaje += (
+            f"_Producto de referencia: {primer_comparador['nombre']} > ${primer_comparador['precio_hoy']:,.0f}_\n"
+        )
+        mensaje += (
+            f"_Producto de referencia: {segundo_comparador['nombre']} > ${segundo_comparador['precio_hoy']:,.0f}_\n\n"
+        )
+
+    # Comparador Maíz San Jorge 190G x2 vs. prod. de referencia
+    if (producto["id"] == 875857):
+        primer_comparador = info_producto_olimpica(874670)
+        segundo_comparador = info_producto_olimpica(2150428)
+        mensaje += (
+            f"_Producto de referencia: {primer_comparador['nombre']} > ${primer_comparador['precio_hoy']:,.0f}_\n"
+        )
+        mensaje += (
+            f"_Producto de referencia: {segundo_comparador['nombre']} > ${segundo_comparador['precio_hoy']:,.0f}_\n\n"
+        )
+
+    # Comparador Protex Avena x6 vs. x3
+    if (producto["id"] == 2094508):
+        comparador = info_producto_olimpica(2226779)
+        mensaje += (
+            f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
+        )
+
+    # Comparador Protex Avena x3 vs. x6
+    if (producto["id"] == 2226779):
+        comparador = info_producto_olimpica(2094508)
+        mensaje += (
+            f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
+        )
+
     return mensaje
