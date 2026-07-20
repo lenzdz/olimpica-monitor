@@ -1,5 +1,15 @@
 [
     {
+        "id": 938238,
+        "emoji": "⌬",
+        "nombre_personalizado": "Alka-Seltzer Tabletas Efervescentes Caja X14"
+    },
+    {
+        "id": 938243,
+        "emoji": "⌬",
+        "nombre_personalizado": "Aspirina Efervescente 500 M Ácido Acetilsalicilico Caja X12 Tabletas"
+    },
+    {
         "id": 2299909,
         "emoji": "🐟",
         "nombre_personalizado": "Atún Van Camp's Agua 320 G X2 Unds"
@@ -95,6 +105,11 @@
         "nombre_personalizado": "Leche Colanta Uht Entera 1,1 Lt X6 Unds"
     },
     {
+        "id": 505264,
+        "emoji": "✨",
+        "nombre_personalizado": "Limpia Vidrios Easy Off Bang Cristal Regular Pistola 500ml"
+    },
+    {
         "id": 2150428,
         "emoji": "🌽",
         "nombre_personalizado": "MAIZ DULCE ZENÚ 241g X2"
@@ -128,6 +143,26 @@
         "id": 2318227,
         "emoji": "🧻",
         "nombre_personalizado": "Papel Higiénico Suppra Care Blanco Prem Triple Hoja 32 Mts X12 Unds"
+    },
+    {
+        "id": 1209320,
+        "emoji": "📃",
+        "nombre_personalizado": "Servilleta Familia Expert X150 Unds"
+    },
+    {
+        "id": 1339502,
+        "emoji": "📃",
+        "nombre_personalizado": "Servilleta Familia Expert X200 Unds"
+    },
+    {
+        "id": 746925,
+        "emoji": "💧",
+        "nombre_personalizado": "Suero Rehidratante Pedialyte Max 60 Manzana 500 Ml"
+    },
+    {
+        "id": 746926,
+        "emoji": "💧",
+        "nombre_personalizado": "Suero Rehidratante Pedialyte Max 60 Uva 500 Ml"
     },
     {
         "id": 2094508,

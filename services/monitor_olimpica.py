@@ -5,6 +5,7 @@ from datetime import datetime
 
 from scraper.olimpica_api import info_producto_olimpica
 from services.monitor_comparables import comparacion_olimpica_a_jumbo
+from services.monitor_comparables import comparacion_olimpica_a_cruzverde
 
 from notifiers.discord import enviar_mensaje_canal_olimpica
 
@@ -12,13 +13,10 @@ fecha_hoy = datetime.now().strftime("%d/%m/%Y")
 
 # LÓGICA OLÍMPICA -------------------------------------------------- 
 
-def monitor_olimpica():
+def monitor_olimpica(diccionario_productos_cruzverde):
 
     with open("data/productos_olimpica.json", encoding="utf-8") as archivo:
         productos_olimpica = json.load(archivo)
-
-    with open("data/productos_comparables.json", encoding="utf-8") as archivo:
-        productos_comparables = json.load(archivo)
 
     enviar_mensaje_canal_olimpica(f"🎉 Productos en oferta ahora ({fecha_hoy}) 🎉")
 
@@ -49,6 +47,7 @@ def monitor_olimpica():
             mensaje += comparadores_olimpica(producto)
 
             mensaje += comparacion_olimpica_a_jumbo(id_producto, resultado)
+            mensaje += comparacion_olimpica_a_cruzverde(id_producto, resultado, diccionario_productos_cruzverde)
 
             enviar_mensaje_canal_olimpica(mensaje)
 
@@ -229,6 +228,20 @@ def comparadores_olimpica(producto):
     # Comparador Protex Avena x3 vs. x6
     if (producto["id"] == 2226779):
         comparador = info_producto_olimpica(2094508)
+        mensaje += (
+            f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
+        )
+    
+    # Comparador Servilletas Familia Expert x150 vs. x200
+    if (producto["id"] == 1209320):
+        comparador = info_producto_olimpica(1339502)
+        mensaje += (
+            f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
+        )
+    
+    # Comparador Servilletas Familia Expert x200 vs. x150
+    if (producto["id"] == 1339502):
+        comparador = info_producto_olimpica(1209320)
         mensaje += (
             f"_Producto de referencia: {comparador['nombre']} > ${comparador['precio_hoy']:,.0f}_\n"
         )

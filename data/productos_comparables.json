@@ -1,27 +1,60 @@
 [
     {
+        "nombre_personalizado": "Alka-Seltzer Tabletas Efervescentes Caja X14",
+        "cruzverde": "COCV_146476",
+        "url_cruzverde": "https://www.cruzverde.com.co/alka-seltzer-tabletas-efervescentes-032411976gr-caja-x-14/COCV_146476.html",
+        "jumbo": 0,
+        "olimpica": 938238
+    },
+    {
+        "nombre_personalizado": "Aspirina Efervescente 500 M Ácido Acetilsalicilico Caja X12 Tabletas",
+        "cruzverde": "COCV_21743",
+        "url_cruzverde": "https://www.cruzverde.com.co/aspirina-tabletas-efervescente-500mg-caja-x-12/COCV_21743.html",
+        "jumbo": 0,
+        "olimpica": 938243
+    },
+    {
         "nombre_personalizado": "Claras de huevo Santa Reyes pasteurizadas libres de grasa x1L",
+        "cruzverde": "0",
         "jumbo": 7702420406006,
         "olimpica": 1219972
     },
     {
         "nombre_personalizado": "Detergente Fab Ultra Flash en Poltvo 2kg",
+        "cruzverde": "0",
         "jumbo": 7702191164327,
         "olimpica": 2314354
     },
     {
         "nombre_personalizado": "Detergente Fab Ultra Flash en Polvo 3 & 3,5kg",
+        "cruzverde": "0",
         "jumbo": 7702191164341,
         "olimpica": 2327124
     },
     {
         "nombre_personalizado": "Leche Colanta Uht Entera 1000 Ml X6 Unds",
+        "cruzverde": "0",
         "jumbo": 7702129004961,
         "olimpica": 2256647
     },
     {
         "nombre_personalizado": "Leche Colanta Uht Entera 1100 Ml X6 Unds",
+        "cruzverde": "0",
         "jumbo": 7702129003612,
         "olimpica": 1623329
+    },
+    {
+        "nombre_personalizado": "Suero Rehidratante Pedialyte Max 60 Manzana 500 Ml",
+        "cruzverde": "COCV_96736",
+        "url_cruzverde": "https://www.cruzverde.com.co/suero-de-rehidratacion-pedialyte-max-60-manzana-500-ml/COCV_96736.html",
+        "jumbo": 0,
+        "olimpica": 746925
+    },
+    {
+        "nombre_personalizado": "Suero Rehidratante Pedialyte Max 60 Uva 500 Ml",
+        "cruzverde": "COCV_96738",
+        "url_cruzverde": "https://www.cruzverde.com.co/suero-de-rehidratacion-pedialyte-max-60-uva-500-ml/COCV_96738.html",
+        "jumbo": 0,
+        "olimpica": 746926
     }
 ]
