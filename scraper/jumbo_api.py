@@ -157,10 +157,10 @@ def info_producto_jumbo(id_producto):
     nombre_del_producto = str(info_producto_desde_api["data"]["product"]["productName"]).title()
 
     # Precio pleno del producto
-    precio_pleno = info_producto_desde_api["data"]["product"]["items"][0]["sellers"][0]["commertialOffer"]["Price"]
+    precio_pleno = info_producto_desde_api["data"]["product"]["items"][0]["sellers"][0]["commertialOffer"]["ListPrice"]
 
     # Precio de hoy del producto (puede ser pleno o tener descuento para todos los medios de pago)
-    precio_hoy = info_producto_desde_api["data"]["product"]["items"][0]["sellers"][0]["commertialOffer"]["ListPrice"]
+    precio_hoy = info_producto_desde_api["data"]["product"]["items"][0]["sellers"][0]["commertialOffer"]["Price"]
 
     informacion_del_producto = {
         "id": id_producto,
