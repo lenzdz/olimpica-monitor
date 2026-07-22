@@ -29,10 +29,11 @@ def comparacion_jumbo_a_olimpica(ean, resultado):
         # Si el producto que tiene descuento está en la lista de artículos comparables, revisa si el precio en Jumbo es menor que el de Olímpica hoy (en general)
         if (ean == producto_comp["jumbo"]):
             item_olimpica = info_producto_olimpica(producto_comp["olimpica"])
-            precio_item_olimpica = item_olimpica["precio_hoy"]
-            if resultado["precio_hoy"] > precio_item_olimpica:
-                mensaje += f"⚠️ Ojo: este producto hoy cuesta menos en Olímpica (${precio_item_olimpica:,.0f})."
-            break
+            if item_olimpica != None:
+                precio_item_olimpica = item_olimpica["precio_hoy"]
+                if resultado["precio_hoy"] > precio_item_olimpica:
+                    mensaje += f"⚠️ Ojo: este producto hoy cuesta menos en Olímpica (${precio_item_olimpica:,.0f})."
+                break
     return mensaje
 
 def comparacion_olimpica_a_cruzverde(id_producto, resultado, diccionario_productos_cruzverde):
